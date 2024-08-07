@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web pertama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/foto/logo-pena.png" alt="Logo" class="logo-img">
+            <h1 class="logo1">Pena</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="mailto:nukmanm32@gmail.com">KONTAK</a>
+                </li>
+                <li>
+                    <a href="#jasa">JASA</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Me</button>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello Manzz Here!</p>
+            <p class="description">Technology Influencer From Village</p>
+            <img src="assets/foto/lek-khoir.png" alt="Manzz foto 1" class="img-foto">
+        </div>
+    </div>
+
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">saya adalah programmer</p>
+            <p class="description">ngoding aja dulu jago belakangan</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">Mari kerja sama</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="jasa">
+                <div class="card-items">
+                    <img src="assets/icon/24-hours.png" alt="icon 1" class="icon">
+                    <p class="card-title">pelayanan nonstop</p>
+                    <p class="card-description">service 24 jam nonstop ketika anda membutuhkan bantuan</p>
+                </div>
+
+                <div class="card-items">
+                    <img src="assets/icon/hot-deal.png" alt="icon 2" class="icon">
+                    <p class="card-title">saya programmer murah</p>
+                    <p class="card-description">biaya jasa yang saya berikan dan terjamin</p>
+                </div>
+
+                <div class="card-items">
+                    <img src="assets/icon/rating.png" alt="icon 3" class="icon">
+                    <p class="card-title">684 Review</p>
+                    <p class="card-description">mereka sangat senang dalam bekerja sama dengan saya</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Manzz website 2024</p>
+    </footer>
+
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://www.instagram.com/pesantren_najaali/"
+        }
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6287860071515"
+        }
+    </script>
+</body>
+
+</html>
